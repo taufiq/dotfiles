@@ -1,13 +1,16 @@
 # dotfiles
 My dot files
 
+## To have my .vimrc!
 ```
 cd ~
 git clone https://github.com/taufiqmmhd/dotfiles.git
 cd ~/dotfiles
 
-chmod +x installvimrc.sh
-./installvimrc.sh
+cp .vimrc ~
+cd ~/
+
+rmdir dotfiles
 
 ```
 
