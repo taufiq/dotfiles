@@ -10,7 +10,7 @@ cd ~/dotfiles
 cp .vimrc ~
 cd ~/
 
-rmdir dotfiles
+sudo rm -r  dotfiles
 
 ```
 
